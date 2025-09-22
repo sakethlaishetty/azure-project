@@ -1,8 +1,5 @@
-\# Azure Project – Scalable Web Application
-
-Azure Project – Scalable Web Application
-CI/CD
 # Azure Project – Scalable Web Application
+
 ![CI/CD](https://github.com/sakethlaishetty/azure-project/actions/workflows/azure-deploy.yml/badge.svg)
 
 
