@@ -1,34 +1,15 @@
-# Azure Project – Scalable Web Application
-
-![CI/CD](https://github.com/sakethlaishetty/azure-project/actions/workflows/azure-deploy.yml/badge.svg)
-
-
-
-\## 📌 Project Overview
-
-This project demonstrates the deployment of a scalable web application on \*\*Microsoft Azure\*\*.  
-
-The solution uses:
-
-\- \*\*Azure App Services\*\* – to host the web application
-
-\- \*\*Azure SQL Database\*\* – for relational data storage
-
-\- \*\*Azure Blob Storage\*\* – for file management
-
-\- \*\*Azure DevOps/GitHub Actions CI/CD\*\* – for automated build and deployment
-
-
-
-The project code and infrastructure setup are version-controlled in GitHub.
-
-
-
 ---
 
+## ⚠️ Deployment Limitation Note
 
+Due to **Azure subscription quota limits**, the App Service Plan (F1/B1) could not be provisioned in the available regions.  
+This prevented the actual deployment of the Web App and SQL Database in the cloud.
 
-\## 📂 Repository Structure
+However, this repository contains the **full end-to-end implementation**:
 
+- ✅ Local Flask app tested successfully (`127.0.0.1:5000`)  
+- ✅ Infrastructure scripts (`infra/deploy.sh`, `infra/sql-schema.sql`)  
+- ✅ CI/CD pipeline with GitHub Actions (`.github/workflows/azure-deploy.yml`)  
+- ✅ Documentation (`README.md`) with setup, verification, and automation steps  
 
-
+This demonstrates the **design, configuration, and automation process** required by the project, even though live deployment was blocked by subscription limitations.
